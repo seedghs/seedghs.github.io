@@ -12,7 +12,17 @@ body{
     margin-top: 100px;
 }
 
+@keyframes fadein {
+    0%{
+        color:red;
+    }
+    100%{
+         color:green;
+    }
+}
+
 #menu a{
+    animation: fadein 3s;
     font-size: 1.5em;
     text-decoration: none;
     color: black;
