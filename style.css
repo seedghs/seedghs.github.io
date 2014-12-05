@@ -8,8 +8,8 @@ body{
 }
 
 
-#menu{
-    margin-top: 100px;
+#title{
+    margin-bottom: 100px;
 }
 
 @keyframes fadein {
