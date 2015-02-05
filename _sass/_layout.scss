@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     text-align: center;
 
@@ -12,8 +11,7 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
+    font-size: 100px;
     letter-spacing: -1px;
     margin-bottom: 0;
 
@@ -24,6 +22,10 @@
 }
 
 .site-nav {
+
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    
     float: center;
     line-height: 56px;
 
@@ -32,12 +34,17 @@
     }
 
     .page-link {
-        color: $text-color;
+        padding: 10px;
+        color: $brand-color;
         line-height: $base-line-height;
+        background-color: rgba(0,0,0,0);
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 10px;
+        }
+        &:hover{
+            background-color: rgba(0,0,0,0.2);
         }
     }
 
@@ -92,7 +99,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 

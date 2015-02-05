@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #e44a3c;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,7 +43,6 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -53,3 +52,4 @@ $on-laptop:        800px;
 
 //import fonts
 @import url(http://fonts.googleapis.com/css?family=Linden+Hill);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
